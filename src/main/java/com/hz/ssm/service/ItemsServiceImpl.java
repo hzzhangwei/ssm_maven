@@ -13,6 +13,8 @@ public class ItemsServiceImpl implements  ItemsService{
 
     public Items findItemsById(Integer id) {
     	System.out.println("service...............");
+        System.out.println("yyyyyyyyyyyyyy");
+
         return itemsMapper.selectByPrimaryKey(id);
     }
 }
